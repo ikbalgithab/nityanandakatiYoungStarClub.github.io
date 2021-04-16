@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Gateway</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <form action="" class="parent">
+        <h1 class="main_head">Payment Form</h1> <hr>
+        <h3>Personal Details</h3>
+        <p>Name <span style="color:red;">*</span>: <input type="text" name="name" required placeholder="Eg:- Sahil Gazi"></p>
+        <fieldset class="gender">
+            <legend>Gender <span style="color: red;">*</span>
+            </legend>
+            <p>
+                male <input type="radio" name="gender" required> 
+                Female <input type="radio" name="gender" required> 
+                Others <input type="radio" name="gender" required> 
+            </p>
+        </fieldset>
+        <p>Address: <br> <textarea name="address" id="address" cols="50" rows="8" placeholder="Enter Your Address"></textarea></p>
+        <p>Email <span style="color: red;">*</span>: <input type="email" name="email" id="email" required placeholder="Eg:- ikbalgazi80@gmail.com"></p>
+        <p>Pin <span style="color:red">*</span>: <input type="number" name="number" id="number" required placeholder="1234"></p>
+        <h3>Payment Details</h3>
+        <p>
+            Card Type <span style="color: red;">*</span>:
+            <select name="Card_type" id="Card_type" required>
+                <option value="">--Select a Card Type--</option>
+                <option value="Rupay">Rupay</option>
+                <option value="Visa">Visa</option>
+                <option value="Master">Master</option>
+            </select>
+
+        </p>
+        <p>Card Number <span style="color:red;">*</span>: <input type="number" name="card_number" id="card_number" required placeholder="0000 0000 0000 0000"></p>
+        <p>
+            <span>
+                Expy Date <span style="color: red;">*</span>:
+                <input type="month" name="expy_month" id="expy_month">
+            </span>
+        </p>
+        <p>Cvv No <span style="color: red;">*</span>: <input type="password" name="cvv" id="cvv" required placeholder="123"></p>
+        <input type="submit" value="Pay Now">
+        <input type="reset" value="Reset">
+    </form>
+
+</body>
+</html>

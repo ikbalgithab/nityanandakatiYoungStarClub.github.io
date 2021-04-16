@@ -1,0 +1,46 @@
+*{
+    box-sizing: content-box;
+}
+body{
+    background-color:rgb(255, 204, 0);
+}
+.container{
+    background-color: rgb(51, 102, 204);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 30px 20px;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 5px;
+}
+.head{
+    text-align: center;
+    background:rgb(16, 185, 67);
+    padding: 5px;
+    border-radius: 2px;
+}
+.form a{
+    text-decoration: none;
+    margin-top: 30px;
+    background-color: rgb(196, 38, 10);
+    padding: 5px;
+    color: black;
+    border: solid black 0.01px;
+    border-radius: 4px;
+}
+input[type="submit"]{
+    cursor: pointer;
+    padding: 3px;
+    border-radius: 3px;
+    border: black solid 1px;
+}
+#sport_type{
+    width: 100%;
+}
+.form a:hover{
+    border: none;
+    background-color:rgb(32, 224, 205);
+    letter-spacing:2px;
+    transition-duration: 0.2s;
+}
